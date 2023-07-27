@@ -1,9 +1,7 @@
-import "./App.css";
-
 function App() {
   return (
     <>
-      <div className='App'>
+      <div>
         <header className='page-header'>
           Welcome to Neko Carrera Designs!
         </header>
