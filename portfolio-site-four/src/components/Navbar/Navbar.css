@@ -1,0 +1,10 @@
+.page-nav {
+    background-color: rgb(42, 1, 80);
+    padding: 40px;
+}
+
+.nav-link {
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(113, 200, 200);
+}
