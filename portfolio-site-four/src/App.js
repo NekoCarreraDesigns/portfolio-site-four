@@ -1,11 +1,14 @@
+import Navbar from "./components/Navbar/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
+
 function App() {
   return (
     <>
-      <div>
-        <header className='page-header'>
-          Welcome to Neko Carrera Designs!
-        </header>
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+      </Routes>
     </>
   );
 }
