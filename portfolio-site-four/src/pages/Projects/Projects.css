@@ -1,14 +1,13 @@
 .project-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background: radial-gradient(circle, rgb(123, 23, 244), rgb(23, 123,155));
 }
 
 .project-div {
     padding: 10px;
 }
 
-.projects-header, .game-header {
+.projects-header, .game-header, .site-header {
     color: rgb(27, 187, 75);
     text-align: center;
 }
