@@ -28,6 +28,15 @@ const Projects = () => {
               </p>
               <a href='https://eformative.com'>Visit</a>
             </div>
+            <div className='project-div'>
+              <h2 className='site-header'>Skate Sesh</h2>
+              <img src='Skate Sesh.gif' alt='website'></img>
+              <p>
+                Mern stack application that tracks skateboarding tricks,
+                currently under construction.
+              </p>
+              <a href='https://eformative.com'>Visit</a>
+            </div>
           </div>
         </div>
         <h1 className='projects-header'>Fun Games</h1>
