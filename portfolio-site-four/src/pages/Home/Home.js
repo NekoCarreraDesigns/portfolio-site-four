@@ -1,11 +1,26 @@
 import React from "react";
 import "./Home.css";
 import Header from "../../components/Header/Header";
+import {
+  SiPython,
+  SiTypescript,
+  SiNodedotjs,
+  SiMongodb,
+  SiJavascript,
+  SiExpress,
+  SiReact,
+  SiAngular,
+  SiFlask,
+  SiFigma,
+  SiMysql,
+  SiGithub,
+} from "react-icons/si";
+
 const Home = () => {
   return (
     <>
       <Header />
-      <div className='wrapper'>
+      <div className='image-wrapper'>
         <div className='welcome-card'>
           <img
             src='https://images.unsplash.com/photo-1483168527879-c66136b56105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJlYWNoZXMlMjBvZiUyMGhhd2FpaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
@@ -18,19 +33,46 @@ const Home = () => {
             alt='puppies'></img>
         </div>
       </div>
-      <div className='wrapper'>
+      <div className='wrapper-header'>
         <h1>Technologies</h1>
       </div>
       <div className='wrapper'>
-        <ul>
-          <li>Python</li>
-          <li>ES6/ES2020</li>
-          <li>TypeScript</li>
-          <li>Node.js</li>
-          <li>MongoDB</li>
-          <li>Express.js</li>
-          <li>React</li>
-        </ul>
+        <p>
+          <SiPython /> Python
+        </p>
+        <p>
+          <SiJavascript /> ES6/ES2020
+        </p>
+        <p>
+          <SiTypescript /> TypeScript
+        </p>
+        <p>
+          <SiNodedotjs /> Node.js
+        </p>
+        <p>
+          <SiMongodb /> MongoDB
+        </p>
+        <p>
+          <SiExpress /> Express.js
+        </p>
+        <p>
+          <SiReact /> React
+        </p>
+        <p>
+          <SiAngular /> Angular
+        </p>
+        <p>
+          <SiFlask /> Flask
+        </p>
+        <p>
+          <SiFigma /> Figma
+        </p>
+        <p>
+          <SiMysql /> MySql
+        </p>
+        <p>
+          <SiGithub /> Github
+        </p>
       </div>
     </>
   );
