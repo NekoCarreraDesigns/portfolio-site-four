@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { GiPalmTree } from "react-icons/gi";
 
 const Navbar = () => {
   return (
@@ -15,6 +16,11 @@ const Navbar = () => {
       <a className='nav-link' href='/contact'>
         Contact
       </a>
+      <div className='circle'>
+        <p className='circle-text'>
+          <GiPalmTree /> Neko Carrera Designs <GiPalmTree />
+        </p>
+      </div>
     </nav>
   );
 };
