@@ -26,7 +26,7 @@ const Projects = () => {
                 Static website made using React, and react-router-dom
                 navigation. The site uses ES6 and some CSS for styling the page.
               </p>
-              <a href='https://eformative.com'>Visit</a>
+              <a href='https://geeks-antigues.com'>Visit</a>
             </div>
             <div className='project-div'>
               <h2 className='site-header'>Skate Sesh</h2>
@@ -35,7 +35,7 @@ const Projects = () => {
                 Mern stack application that tracks skateboarding tricks,
                 currently under construction.
               </p>
-              <a href='https://eformative.com'>Visit</a>
+              <a href='https://skatesesh.com'>Visit</a>
             </div>
           </div>
         </div>
