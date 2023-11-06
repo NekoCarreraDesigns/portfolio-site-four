@@ -23,14 +23,14 @@ const Home = () => {
       <div className='image-wrapper'>
         <div className='welcome-card'>
           <img
-            src='https://images.unsplash.com/photo-1483168527879-c66136b56105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJlYWNoZXMlMjBvZiUyMGhhd2FpaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
-            alt='aloha'></img>
+            src='https://images.unsplash.com/photo-1505238680356-667803448bb6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D'
+            alt='coding-laptop'></img>
           <img
-            src='https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
-            alt='coding'></img>
+            src='https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D'
+            alt='coding-python'></img>
           <img
-            src='https://images.unsplash.com/photo-1606833694770-40a04762ac16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHB1cHBpZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-            alt='puppies'></img>
+            src='https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29kaW5nfGVufDB8fDB8fHww'
+            alt='coding-mac'></img>
         </div>
       </div>
       <div className='wrapper-header'>
