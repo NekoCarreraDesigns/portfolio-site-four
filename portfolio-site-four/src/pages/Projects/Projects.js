@@ -1,5 +1,7 @@
 import React from "react";
 import "./Projects.css";
+import { Link } from "react-router-dom";
+
 const Projects = () => {
   return (
     <>
@@ -17,7 +19,8 @@ const Projects = () => {
                 and Node to make it serverless. The site uses material UI for a
                 nice clean presentation
               </p>
-              <a href='https://eformative.com'>Visit</a>
+              <Link to='https://eformative.com'>Visit</Link>
+              <Link to='https://www.github.com/NekoCarreraDesigns/eformative'>View Code</Link>
             </div>
             <div className='project-div'>
               <h2 className='site-header'>The Antique Geek</h2>
@@ -26,7 +29,8 @@ const Projects = () => {
                 Static website made using React, and react-router-dom
                 navigation. The site uses ES6 and some CSS for styling the page.
               </p>
-              <a href='https://geeks-antigues.com'>Visit</a>
+              <Link to='https://antiques-geek.onrender.com/'>Visit</Link>
+              <Link to='https://www.github.com/NekoCarreraDesigns/antiiques-geek'>View Code</Link>
             </div>
             <div className='project-div'>
               <h2 className='site-header'>Skate Sesh</h2>
@@ -35,7 +39,8 @@ const Projects = () => {
                 Mern stack application that tracks skateboarding tricks,
                 currently under construction.
               </p>
-              <a href='https://skatesesh.com'>Visit</a>
+              <Link to='https://skatesesh.com'>Coming soon</Link>
+              <Link to='https://www.github.com/NekoCarreraDesigns/skate-sesh'>View Code</Link>
             </div>
           </div>
         </div>
@@ -55,7 +60,7 @@ const Projects = () => {
               programming to draw the board, as well as using functional
               programming for the controls
               <button className='play-me-button'>
-                <a href='/main.exe'>Play me!</a>
+                <Link to='/main.exe'>Play me!</Link>
               </button>
             </p>
           </div>
@@ -71,7 +76,7 @@ const Projects = () => {
               Game was made using Python, Pygame, and Numpy. Uses functional
               programming to draw, and provide the games functionality
               <button>
-                <a href='/connect_four.exe'>Play me!</a>
+                <Link to='/connect_four.exe'>Play me!</Link>
               </button>
             </p>
           </div>
@@ -84,7 +89,7 @@ const Projects = () => {
               functional programming for the controls
             </p>
             <button>
-              <a href='/tetris.exe'>Play me!</a>
+              <Link to='/tetris.exe'>Play me!</Link>
             </button>
           </div>
         </div>
