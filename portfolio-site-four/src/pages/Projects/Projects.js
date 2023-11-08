@@ -20,6 +20,7 @@ const Projects = () => {
                 nice clean presentation
               </p>
               <Link to='https://eformative.com'>Visit</Link>
+              <br/>
               <Link to='https://www.github.com/NekoCarreraDesigns/eformative'>View Code</Link>
             </div>
             <div className='project-div'>
@@ -30,6 +31,7 @@ const Projects = () => {
                 navigation. The site uses ES6 and some CSS for styling the page.
               </p>
               <Link to='https://antiques-geek.onrender.com/'>Visit</Link>
+              <br/>
               <Link to='https://www.github.com/NekoCarreraDesigns/antiiques-geek'>View Code</Link>
             </div>
             <div className='project-div'>
@@ -40,6 +42,7 @@ const Projects = () => {
                 currently under construction.
               </p>
               <Link to='https://skatesesh.com'>Coming soon</Link>
+              <br/>
               <Link to='https://www.github.com/NekoCarreraDesigns/skate-sesh'>View Code</Link>
             </div>
           </div>
